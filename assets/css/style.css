@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+/* font-family: 'Monoton', cursive;
+font-family: 'Ubuntu', sans-serif; */
+/* 
+Farben #070707, #9d9f9f, #f4f7f8 und #AC8059
+
+ */
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: #070707;
+}
+
+/* ========================== Header ========================== */
+
+header {
+    border-bottom: 1px solid #9d9f9f;
+    padding: 2vh 5vw; 
+    position: relative;
+    text-transform: uppercase;
+}
+
+/* ----------------- Header - Logo ----------------- */
+header p:nth-of-type(1) {
+    font-family: 'Monoton', cursive;
+    color: #f4f7f8;
+    font-size:30px;
+    display: inline-block;
+}
+
+/* ----------------- Header - Einloggen ----------------- */
+
+header>a:nth-of-type(1) {
+    display: inline-block;
+    color: #9d9f9f; 
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+    position: absolute;
+    left: 10%; 
+    top: 40%; 
+}
+
+/* ----------------- Header - Navigation ----------------- */
+
+header nav {
+    display: inline-block;
+    position: absolute;
+    top: 40%; 
+    right: 5vw; 
+}
+
+header nav ul {
+    list-style: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 4.6vw; 
+}
+
+header nav ul li a {
+    color: #9d9f9f; 
+    text-decoration: none;   
+}
+
+header nav ul li:nth-of-type(1) a {
+    color: #f4f7f8;  
+}
+
+/* ========================== Main ========================== */
+
+main section h1 {
+    color: #f4f7f8;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 55px;
+    font-weight: 450;
+    width: 350px;
+    position: absolute;
+    top: 38%;
+    left: 14%;
+}
+
+main section p {
+    color: #AC8059;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    top: 60%;
+    left: 14%;
+    font-size: 12px;
+}
+
+main section span {
+    letter-spacing:-2px;
+}
+
+
+/* ----------------- Bilder ----------------- */
+
+main div img {
+    height: 530px;
+    width: 250px;
+    object-fit: cover;
+    object-position: 30% 70%;
+    padding: 10px;
+}
+
+main div img:nth-of-type(1) {
+    position: absolute;
+    top: 20%;
+    left: 47vw;
+}
+
+main div img:nth-of-type(2) {
+    position: absolute;
+    top: 20%;
+    left: 65vw;
+
+}
+
+main div img:nth-of-type(3) {
+    position: absolute;
+    top: 20%;
+    left: 83vw;
+}
+
+
+/* ========================== Footer ========================== */
+
+footer {
+    position: fixed;
+    bottom: 3%;
+    left: 5vw;
+}
+
+footer article:nth-of-type(1) {
+    display: inline-block;
+}
+
+footer article:nth-of-type(1) i {
+    color: #9d9f9f;
+    padding: 7px;
+}
+
+
+/* ----------------- Vor und zurück ----------------- */
+
+footer article:nth-of-type(2) {
+    display: inline-block;
+    margin-left: 850px;
+    width: 15vw;
+    color: #9d9f9f;
+}
+
+footer article:nth-of-type(2) i:nth-of-type(1){
+    border: 0.8px solid #AC8059;
+    border-radius: 40px;
+    padding: 8px; 
+    margin-right: 10px;
+}
+
+footer article:nth-of-type(2) i:nth-of-type(2){
+    border: 0.8px solid #AC8059;
+    border-radius: 40px;
+    padding: 8px; 
+}
